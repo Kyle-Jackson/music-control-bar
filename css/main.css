@@ -25,29 +25,33 @@ body {
 .music-bar {
   min-height: 50px;
   padding-top: 6px;
+  padding-left: 50px;
   background-image: linear-gradient(to bottom, #e2e2e2, #ccc);
   text-align: center;
   color: #333;
+  position: relative;
 }
 
 .song {
   font-size: 1rem;
   font-weight: normal;
   margin: 0;
+  position: relative;
+  text-align: center;
 }
 
 .band {
   font-size: .8rem;
   margin: 0;
   color: #666;
+  position: relative;
 }
 
 .album {
-
-}
-
-.time {
-
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .time-bar {
@@ -58,6 +62,10 @@ body {
   -moz-appearance: none;
   border: 0;
   background-color: #aaa;
+  position: absolute;
+  left: 50px;
+  bottom: 0;
+  right: ;
 }
 
 /*
@@ -77,10 +85,14 @@ body {
 
 .time-lapsed {
   font-size: .7rem;
+  position: absolute;
+  left: 55px;
+  bottom: 7px;
 }
 
 .time-total {
   font-size: .7rem;
+  position: absolute;
 }
 
 .controls {
@@ -93,13 +105,21 @@ body {
 }
 
 .control-shuffle {
-
+  position: absolute;
+  left: 55px;
+  top: 7px;
 }
 
 .control-list {
+  position: absolute;
+  top: 5px;
+  right: 5px;
 
 }
 
 .control-heart {
+  position: absolute;
+  top: 8px;
+  right: 30px;
 
 }
