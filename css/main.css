@@ -65,7 +65,8 @@ body {
   position: absolute;
   left: 50px;
   bottom: 0;
-  right: ;
+  right: 0;
+  width: 100%;
 }
 
 /*
